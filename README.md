@@ -1,4 +1,4 @@
-# Cilla's Wear
+# Cilla's Wears
 
 A premium urban-African fashion e-commerce platform with integrated blog functionality, built with Next.js.
 
@@ -8,7 +8,7 @@ A premium urban-African fashion e-commerce platform with integrated blog functio
 
 ## Overview
 
-Cilla's Wear is a modern e-commerce platform that combines premium fashion retail with storytelling through an integrated blog. The platform authentically reflects the brand's urban-African aesthetic, balancing robust e-commerce capabilities with engaging content and storytelling.
+Cilla's Wears is a modern e-commerce platform that combines premium fashion retail with storytelling through an integrated blog. The platform authentically reflects the brand's urban-African aesthetic, balancing robust e-commerce capabilities with engaging content and storytelling.
 
 ## Tech Stack
 
@@ -180,4 +180,4 @@ This project is proprietary software. All rights reserved.
 
 ---
 
-Built with ❤️ by Cilla's Wear
+Built with ❤️ by Cilla's Wears
