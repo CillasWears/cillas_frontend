@@ -92,7 +92,7 @@ export default function SearchResults({
                   className="relative w-full aspect-[3/4] 
                              bg-secondary-grey/10 overflow-hidden mb-md"
                 >
-                  {product.images[0] ? (
+                  {product.images && product.images[0] ? (
                     <Image
                       src={product.images[0].url}
                       alt={product.images[0].altText || product.name}

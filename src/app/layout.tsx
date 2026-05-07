@@ -9,8 +9,34 @@ import QueryProvider from '@/components/providers/QueryProvider'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: "Cilla's Wear",
-  description: 'Premium urban-African fashion',
+  title: {
+    default: "Cilla's Wears — Premium Urban-African Fashion",
+    template: "%s | Cilla's Wears",
+  },
+  description:
+    "Discover premium urban-African fashion at Cilla's Wears. Bold, minimal, and deeply cultural clothing crafted for the modern African.",
+  keywords: [
+    'African fashion',
+    'urban African clothing',
+    'premium fashion Nigeria',
+    'African designer wear',
+    'contemporary African fashion',
+  ],
+  authors: [{ name: "Cilla's Wear" }],
+  creator: "Cilla's Wear",
+  openGraph: {
+    siteName: "Cilla's Wear",
+    type: 'website',
+    locale: 'en_NG',
+  },
+  twitter: {
+    card: 'summary_large_image',
+    creator: '@cillaswear',
+  },
+  robots: {
+    index: true,
+    follow: true,
+  },
 }
 
 export default function RootLayout({
